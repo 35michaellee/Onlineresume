@@ -1,0 +1,25 @@
+#headshotpic{
+  width: 30%;
+ display:flex;
+}
+/* has box1 2 and 3  */
+#section1{
+ display:flex;
+ flex-wrap: wrap;
+}
+#section2{
+
+}
+#section{
+
+}
+.box{
+  border: solid 1px blue;
+}
+#box1{
+ 
+}
+body{
+ 
+  width: 600px;
+}
