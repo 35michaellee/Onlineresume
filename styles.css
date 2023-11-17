@@ -1,25 +1,50 @@
 #headshotpic{
-  width: 30%;
- display:flex;
+  width: 10em;
 }
 /* has box1 2 and 3  */
 #section1{
- display:flex;
- flex-wrap: wrap;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap:wrap;
+  
 }
 #section2{
-
+  width: 65%;
 }
-#section{
+#section3{
+  
+}
+#secondhalf{
+  display:flex;
 
 }
 .box{
-  border: solid 1px blue;
+  
 }
 #box1{
- 
+ width:200px;
+ display: flex;
+ margin-right:auto;
+
+}
+#box2{
+  width:300px;
+}
+#box3{
+  line-height: 1.5;
+  margin:2rem;
+}
+#resumePage{
+  background-color: rgb(135, 135, 152);
 }
 body{
- 
+  margin:auto;
+  padding: 2rem;
   width: 600px;
+  border: solid 1px blue;
+  font-size:12px
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
+/* OrangeYellow F9BC2F */
